@@ -1,0 +1,201 @@
+body{
+  background-color: white;
+  color: black;
+  font-family: 'Helvetica';
+  font-size: 20px;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.imgLogo{
+  height:30px;
+  width:30px;
+}
+.nav-item{
+  transition: background-color 0.5s ease;
+}
+.nav-item:hover{
+  background-color:#949087;
+}
+h1{
+  font-family: 'Helvetica';
+  font-weight:bold;
+  color: black;
+}
+header img{
+  display:block;
+  margin: 20px auto 50px auto;
+  width:30%;
+}
+header h1{
+  font-weight:bold;
+}
+header h1, h3, div{
+  text-align:center;
+}
+header, section{
+  width:940px;
+  margin:0 auto;
+}
+.restaurantName{
+  font-size:40pt;
+}
+
+}
+}
+footer {
+    color: #fff;
+    padding: 50px 0;
+    background-color: #222;
+}
+ul.banner-social-buttons li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    outline: 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: #333;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+.social{
+  text-align:center;
+}
+.twitter{
+  color:lightblue;
+}
+.facebook{
+  color:blue;
+}
+.instagram{
+  color:orange;
+}
+/*hr decoration*/
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.team{
+   margin-top: 50px;
+   margin-bottom: 80px;
+}
+.team img{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   margin-top:100px;
+   margin-bottom: 50px;
+}
+.team .col-md-6{
+  margin:0 auto;
+}
+.team img{
+  margin-top:15px;
+}
+.dedicated_team{
+  text-align:center;
+}
+.dedicated_team img{
+  height:200px;
+  width:200px;
+  border-radius:20px;
+}
+.reservation{
+  text-align:center;
+}
+.reservation h1{
+  margin-bottom:50px;
+}
+.menu_items{
+  margin-top:50px;
+}
+.menu_header img{
+  width:100%;
+  margin: 100px auto 50px auto;
+}
+.menu_images img{
+  width:200px;
+  height:200px;
+}
+.itemName{
+  height:100px;
+  margin-top:25px;
+  font-size:24pt;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive;
+  color:#d5ded3;
+}
+.menu_items p{
+  text-align:left;
+}
+.services i{
+  font-size:35px;
+  padding: 10px;
+  color: white;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 50px;
+
+}
+form{
+  text-align:center;
+  width:60%;
+  margin:100px auto 0px auto;
+}
+form button{
+  margin-top:10px;
+  width:200px;
+}
+form label{
+  margin-top:20px;
+  text-align:left;
+  font-size:24pt;
+}
+.deliverySection h1{
+  margin-top:100px;
+  text-align:center;
+}
+.deliverySection img{
+  width:100px;
+  height:100px;
+  border-radius:20px;
+  margin-top:50px;
+}
+.hourSection{
+  text-align:center;
+}
+.hourSection h1{
+  font-size:30pt;
+  margin-top:100px;
+}
+.hourSection .row{
+  margin-top:50px;
+  font-size:24pt;
+  font-family: 'Dancing Script', cursive;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.heading-pic {
+    color: black;
+    background: #debb5b6c;
+    margin-left: 100px;
+}
