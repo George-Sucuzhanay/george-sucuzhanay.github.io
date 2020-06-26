@@ -1,60 +1,85 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title> George Sucuzhanay </title>
-      <link rel="stylesheet" type= "text/css" href="index.css">
-    </head>
-      <body>
+<html>
+  <head>
+    <title>Rosalind's Restaurant</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--own css -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Google Fontfont-family: 'Comic Neue', cursive; -->
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <!--font-family: 'Dancing Script', cursive;-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!--Friconix-->
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">George Sucuzhanay</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#reservation">About</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="menu.html">Resume</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="team.html">Contact</a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="hours.html">Hours</a>
+              <a class="dropdown-item" href="deliveryServices.html">Delivery Services</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Contact.html">Contact us</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--header-->
+    <header class = "container">
+        <img src="photo.jpg">
+        <div>
+      <!-- Add icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <h1>George Sucuzhanay</h1>
           <hr>
-            <img src="photo.jpg"alt="Image" class="center">
-        <h1>About</h1>
-          <hr>
-              <p>Student at Aviation High School<p>
-                <ul>
-                  <li>Taken Honors and College Now Classes</li>
-                  <li>Current Junior | Sept 2017- June 2021 </li>
-                  <li>Projected Courses: AP English Literature, AP Calculus AB, AP Chemistry, AP Computer Science A</li>
-                </ul>
-              <p>Programmer</p>
-                <ul>
-                  <li>Started to code in 2019, and where I discoverd exactly what I am passoinate about and want to major in college</li>
-                  <li>America on Tech TECH360 Spring Cohort Scholar (March 2020- May 2020)</li>
-                </ul>
-            <p>Tutor</p>
-                <ul>
-                  <li>Helped classmates afterschool with homework and/or classwork</li>
-                  <li>Mentored students at PS.307 in their literacy and communication skills</li>
-                </ul>
-        <h2>Resume</h2>
-          <hr>
-            <a href="https://linkedin.com/in/GeorgeSucuzhanay">Linkedin</a>
-            <a href="http://georgesucuzhanay.tech.blog">Portfolio</a>
-        <h2>Skills</h2> 
-          <hr>
-            <ol>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JAVA</li>
-              <li>WordPress</li>
-              <li>Google Suite</li>
-              <li>Microsoft Office 365</li>
-              <li>Repl.it</li>
-              <li>Github</li>
-            </ol>
-              <table>
-                <tr>
-                  <th>Contacts</th>
-                  <th>Info</th>
-                </tr>
-                <tr>
-                  <td>Github</td>
-                  <td>Github.com/George-Sucuzhanay</td>
-                </tr>
-                <tr>
-                  <td>Linkedlin</td>
-                  <td>Ln/GeorgeSucuzhanay</td>
-                </tr>
-              </table>
+        <h1>Not Your Average High School Student</h1>
+          <p>Get ready to turn your ideas into reality</p>
+        <h1> Hi, I’m George, a front-end developer from Queens, New York. Please take a look around!</h1>
+        <p>I am passionate about building excellent websites that improves the lives of those around me. I am currently working on programming projects in preparation of a major in Computer Science. I am also teaching myself Python and JavaScript in order to build a web app on financial literacy. My goal is to obtain a position as a Front-End Developer in which I can utilize my technical and mechanical skills, with possibility for advancement. I have engaged in many coding bootcamps and have volunteering my time to organization in their website and data entry needs.</p>
+        <h1>Founder of Gen Z Tech Media</h1>
+          <p>Check out my blog below!</p>
+          <a href="www.genztechmedia.wordpress.com">Gen Z Tech Media</a>
+        <h1>Portfolio</h1>
+          <p>Available in <a href="https://github.com/George-Sucuzhanay">Github</a></p>
+  
+        
       </body>
   </html>
