@@ -1,12 +1,40 @@
-body{
-  background-color: white;
-  color: black;
-  font-family: 'Helvetica';
-  font-size: 20px;
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:black;
+    background-color:white;
+    margin: 0px auto;
+    position: relative;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
 }
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Helvetica
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 22px;
+    line-height: 1.5;
 }
 .imgLogo{
   height:30px;
@@ -23,11 +51,6 @@ h1{
   font-weight:bold;
   color: black;
 }
-header img{
-  display:block;
-  margin: 20px auto 50px auto;
-  width:30%;
-}
 header h1{
   font-weight:bold;
 }
@@ -41,13 +64,22 @@ header, section{
 .restaurantName{
   font-size:40pt;
 }
-
-}
+img {
+    height: 10%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 footer {
     color: #fff;
     padding: 50px 0;
     background-color: #222;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 ul.banner-social-buttons li a {
     display: block;
@@ -61,18 +93,6 @@ ul.banner-social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-}
-.social{
-  text-align:center;
-}
-.twitter{
-  color:lightblue;
-}
-.facebook{
-  color:blue;
-}
-.instagram{
-  color:orange;
 }
 /*hr decoration*/
 hr{
@@ -159,28 +179,8 @@ form label{
   text-align:left;
   font-size:24pt;
 }
-.deliverySection h1{
-  margin-top:100px;
-  text-align:center;
-}
-.deliverySection img{
-  width:100px;
-  height:100px;
-  border-radius:20px;
-  margin-top:50px;
-}
-.hourSection{
-  text-align:center;
-}
-.hourSection h1{
-  font-size:30pt;
-  margin-top:100px;
-}
-.hourSection .row{
-  margin-top:50px;
-  font-size:24pt;
-  font-family: 'Dancing Script', cursive;
-}
+
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
@@ -199,3 +199,28 @@ form label{
     background: #debb5b6c;
     margin-left: 100px;
 }
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
