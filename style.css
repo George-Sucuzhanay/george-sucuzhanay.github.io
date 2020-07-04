@@ -24,10 +24,12 @@ h3,
 h4,
  {
     margin: 0 0 35px;
+    font-size: 20px;
+    color: white;
     text-transform: uppercase;
     font-family: Helvetica
-    font-weight: 300;
     letter-spacing: 1px;
+    
 }
 
 p {
@@ -65,7 +67,7 @@ header, section{
   font-size:40pt;
 }
 img {
-    height: 10%;
+    height:30%;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -213,4 +215,18 @@ h5.card-title, p.card-title, {
   border: 100px;
   font-size: 30px;
 
+}
+img.genzlogo {
+  height:260px;
+  width: 290px;
+}
+img.rounded {
+  height:300px;
+  width: 220px;
+}
+img.card-img {
+  border-radius: 20px;
+}
+btn-social btn-outline {
+  font-size: 20px;
 }
