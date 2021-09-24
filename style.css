@@ -17,6 +17,12 @@ header p{
         margin-left: 20px;
     }
 }
+.card-deck {
+  margin: 60px;
+}
+.mylogos {
+  width: 100%;
+}
 .banner
 {
 	color: rgb(35, 35, 48);
@@ -94,6 +100,24 @@ color: dimgrey;
 	width:90px;
 	transition:1s;
 }
+section#interests {
+  width: 90%;
+  margin: auto;
+}
+.mylogos{
+  object-fit: cover;
+	transition:1s;
+}
+#codecademylogo{
+  object-fit: cover;
+  transition: 1s;
+  width: 75%;
+}
+#codingspacelogo{
+  object-fit: cover;
+	transition:1s;
+  width: 25%
+}
 #flogo {
 
 	height:80px;
@@ -101,11 +125,9 @@ color: dimgrey;
 	transition:1s;
 }
 .btn {
-  background-image: linear-gradient(90deg, rgba(162,85,227,1) 0%, rgba(95,204,255,1) 50%, rgba(61,124,233,1) 100%);
-  border-radius: 15px;
+  border-radius: 10px;
 }
 button {
-  float: right;
   padding: 8px 12px;
   margin: 0px 0 0;
   font-family: 'Montserrat', sans-serif;
